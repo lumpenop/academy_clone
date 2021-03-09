@@ -1,50 +1,45 @@
+ul li {
+    list-style: none;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-ul li {
-    list-style: none;
-}
-
 #header {
     width: 100%;
-    margin: 0 auto;
 }
 
 #container {
-    width: 1200px;
     margin: 0 auto;
+    width: 1200px;
 }
-
-
-#logo {
-    float: left;
-    margin-top: 20px;
-}
-
+/* block style 태그에 float을 줄 경우 
+    block은 그대로 유지되고 inline속성만 딸려온다
+    -> 같은 float이 적용된 block도 영역을 할당 받을 수 있음
+*/
 #gnb {
     float: right;
 }
 
 #gnb ul li {
+    text-align: center;
     float: left;
-    display: inline-block;
-    margin-top: 30px;
-}
-
-
-#gnb ul li a {
-    display: block;
     width: 180px;
     padding: 40px 0;
-    color: #004385;
-    font-weight: bold;
-    font-size: 19px;
-    text-align: center;
     
 }
 
-a {
+#gnb ul li a {
     text-decoration: none;
+    font-size:19;
+    font-weight: bold;
+    color: #201397;
+    margin: 0 auto;
+}
+
+#logo {
+    margin-top: 20px;
+    display: inline-block;
 }
