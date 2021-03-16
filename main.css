@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+html, body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+div{
+    display: block;
+}
+
+.banner_img{
+    background: url(
+        "http://www.kiweb.or.kr/images/main/top_bg.gif"
+    )center no-repeat;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.banner{
+    width: 1920px;
+    margin: 0 auto;
+    
+}
+
+.banner td{
+    width: 33%;
+    padding-top: 5px;
+}
+
+.banner td img{
+    position: relative;
+    top: 4px;
+}
+
+.banner td:first-child{
+    text-align: right;
+    padding-right: 30px;
+}
+
+.banner td:last-child{
+    text-align: left;
+    padding-left: 45px;
+}
+
+.top_banner{
+    background: #333;
+}
+
+#header{
+    width: 100%
+}
+
+.header_container, .container{
+    width: 1200px;
+    margin: 0 auto
+}
+
+.header_container{
+    overflow: hidden;
+}
+
+.logo{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.gnb{
+    float: right;
+}
+
+.gnb li {
+    float: left;
+}
+
+.gnb li a {
+    display: inline-block;
+    width: 180px;
+    color: #004385;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 40px 0;
+}
+
+#visual {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+#content_section{
+    margin-top: 20px;
+}
+
+.con_lecture{
+    width: 50%;
+    float: left;
+}
+
+.con_lecture li {
+    width: 50%;
+    height: 230px;
+    display: inline-block;
+    float: left;
+    padding: 20px;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+}
+
+.con_lecture li span{
+    display: block;
+    font-size: 12px;
+    color: #666;
+}
+
+.con_lecture li p{
+    margin-top: 30px;
+    color: #666;
+}
+
+.con_lecture > ul > li > a{
+    display: inline-block;
+    margin-top: 40px;
+    background: skyblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    color: #fff;
+}   
+
+.con_lecture dt a, .con_lecture dd{
+    line-height: 32px;
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.con_lecture dt{
+    width: 66%;
+    display: inline-block;
+    float: left;
+}
+
+.con_lecture dd{
+    width: 33%;
+}
+
+.con_lecture dl{
+    margin-top: 20px;
+}
+
+.con_lecture button{
+    border: none;
+    margin-left: 65px;
+}
+
+.con_community{
+    width: 50%;
+    display: inline-block;   
+}
+
+.con_interview, .br_none{
+    display: inline-block;
+    width: 50%;
+    height: 415px;
+    float: left;
+}
+
+.con_interview, .bg_gray, 
+.con_teacher{
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.con_teacher {
+    height: 505px;
+}
+
+.con_community h3{
+    width: 100%;
+
+}
+
+.con_community h3 a{
+    float: right;
+}
+
+.con_interview > img{
+    border: 1px solid #ececec;
+    margin-top: 20px
+}
